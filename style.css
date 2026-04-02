@@ -46,8 +46,7 @@ select,input,textarea,button{font-family:inherit}
 .loader{position:fixed;inset:0;background:var(--n);z-index:10000;display:flex;align-items:center;justify-content:center;transition:opacity .7s,visibility .7s}
 .loader.gone{opacity:0;visibility:hidden}
 .loader-inner{text-align:center}
-.ll-i{display:block;font-family:var(--serif);font-size:2rem;font-weight:600;letter-spacing:.5em;color:var(--w)}
-.ll-s{display:block;font-family:var(--serif);font-size:1rem;font-weight:300;letter-spacing:.8em;color:var(--g);margin-top:4px}
+.loader-logo-svg{width:260px;height:auto;display:block;margin:0 auto}
 .loader-bar{width:240px;height:1px;background:var(--w08);margin:28px auto 16px;overflow:hidden}
 .loader-fill{height:100%;width:0;background:linear-gradient(90deg,var(--g3),var(--g),var(--g2));animation:fill-bar 2s var(--ease) forwards}
 @keyframes fill-bar{to{width:100%}}
@@ -62,10 +61,7 @@ select,input,textarea,button{font-family:inherit}
 .navbar.scrolled{padding:14px 0;background:rgba(10,10,10,.96);backdrop-filter:blur(24px);border-bottom:1px solid rgba(201,168,76,.18)}
 .nav-container{max-width:1300px;margin:0 auto;padding:0 48px;display:flex;align-items:center;justify-content:space-between;gap:48px}
 .nav-logo{display:flex;align-items:center;gap:14px;flex-shrink:0}
-.logo-mark{width:42px;height:42px;background:linear-gradient(135deg,var(--g3),var(--g));color:var(--n);font-family:var(--serif);font-size:1rem;font-weight:700;display:flex;align-items:center;justify-content:center;letter-spacing:.05em;flex-shrink:0}
-.logo-text{display:flex;flex-direction:column;line-height:1}
-.logo-top{font-family:var(--serif);font-size:.95rem;font-weight:600;letter-spacing:.2em;color:var(--w)}
-.logo-bot{font-family:var(--sans);font-size:.5rem;font-weight:400;letter-spacing:.3em;color:rgba(201,168,76,.65);text-transform:uppercase}
+.nav-logo-svg{height:52px;width:auto}
 .nav-links{display:flex;align-items:center;gap:36px}
 .nav-links a{font-size:.68rem;font-weight:400;letter-spacing:.15em;text-transform:uppercase;color:var(--w80);position:relative;transition:color var(--t)}
 .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--g);transition:width var(--t)}
@@ -341,10 +337,7 @@ select,input,textarea,button{font-family:inherit}
 .footer-body{padding:80px 0 60px;border-bottom:1px solid var(--w08)}
 .footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:64px}
 .footer-logo{display:flex;align-items:center;gap:14px;margin-bottom:20px}
-.fl-mark{width:40px;height:40px;background:linear-gradient(135deg,var(--g3),var(--g));color:var(--n);font-family:var(--serif);font-size:.95rem;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.fl-name{display:flex;flex-direction:column;line-height:1}
-.fl-name span:first-child{font-family:var(--serif);font-size:.9rem;font-weight:600;letter-spacing:.2em;color:var(--w)}
-.fl-name span:last-child{font-family:var(--sans);font-size:.48rem;font-weight:400;letter-spacing:.3em;color:rgba(201,168,76,.65);margin-top:3px;text-transform:uppercase}
+.footer-logo-svg{width:180px;height:auto}
 .fg-brand p{font-size:.8rem;color:var(--w50);line-height:1.85;margin-bottom:24px}
 .fg-social{display:flex;gap:10px}
 .fg-social a{width:36px;height:36px;border:1px solid var(--w08);display:flex;align-items:center;justify-content:center;color:var(--w50);transition:var(--t)}
