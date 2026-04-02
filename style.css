@@ -88,6 +88,8 @@ select,input,textarea,button{font-family:inherit}
 .particle{position:absolute;border-radius:50%;background:var(--g);opacity:0;animation:pfloat linear infinite}
 @keyframes pfloat{0%{transform:translateY(100vh);opacity:0}10%{opacity:.9}90%{opacity:.2}100%{transform:translateY(-10px) translateX(30px);opacity:0}}
 .hero-content{position:relative;z-index:3;text-align:center;max-width:960px;padding:0 40px}
+.hero-logo-brand{margin-bottom:36px}
+.hero-logo-svg{width:340px;height:auto;filter:drop-shadow(0 0 32px rgba(201,168,76,.35))}
 .hero-eyebrow{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:28px;font-size:.65rem;letter-spacing:.4em;text-transform:uppercase;color:var(--g)}
 .eyebrow-line{flex:1;max-width:80px;height:1px;background:linear-gradient(90deg,transparent,var(--g))}
 .eyebrow-line:last-child{background:linear-gradient(90deg,var(--g),transparent)}
