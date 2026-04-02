@@ -46,12 +46,12 @@ select,input,textarea,button{font-family:inherit}
 .loader{position:fixed;inset:0;background:var(--n);z-index:10000;display:flex;align-items:center;justify-content:center;transition:opacity .7s,visibility .7s}
 .loader.gone{opacity:0;visibility:hidden}
 .loader-inner{text-align:center}
-.loader-logo-svg{width:260px;height:auto;display:block;margin:0 auto}
-.loader-bar{width:240px;height:1px;background:var(--w08);margin:28px auto 16px;overflow:hidden}
+.loader-logo-svg{width:440px;height:auto;display:block;margin:0 auto}
+.loader-bar{width:320px;height:1px;background:var(--w08);margin:36px auto 20px;overflow:hidden}
 .loader-fill{height:100%;width:0;background:linear-gradient(90deg,var(--g3),var(--g),var(--g2));animation:fill-bar 2s var(--ease) forwards}
 @keyframes fill-bar{to{width:100%}}
-.loader-group{font-size:.6rem;letter-spacing:.25em;color:rgba(201,168,76,.55);text-transform:uppercase;margin-bottom:8px}
-.loader-text{font-size:.65rem;letter-spacing:.3em;color:var(--w50);text-transform:uppercase}
+.loader-group{font-size:.9rem;letter-spacing:.3em;color:rgba(201,168,76,.75);text-transform:uppercase;margin-bottom:10px}
+.loader-text{font-size:.95rem;letter-spacing:.35em;color:var(--w50);text-transform:uppercase}
 
 /* ── PROGRESS BAR ── */
 .progress-bar{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--g3),var(--g),var(--g2));z-index:9998;pointer-events:none;transition:width .1s linear}
