@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emma Shine — Agence d'Hôtesses & Hôtes de Prestige | Groupe Imperium</title>
+  <meta name="description" content="Emma Shine, agence d'hôtesses et hôtes haut de gamme présente dans toute la France et en Europe. Une société du Groupe Imperium. Excellence, élégance et protocole pour vos événements d'exception." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">
+      <span class="ll-i">EMMA</span>
+      <span class="ll-s">SHINE</span>
+    </div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+    <p class="loader-group" data-fr="Une société du Groupe Imperium" data-en="A company of the Imperium Group">Une société du Groupe Imperium</p>
+    <p class="loader-text" data-fr="L'excellence en marche…" data-en="Excellence in motion…">L'excellence en marche…</p>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#hero" class="nav-logo">
+      <div class="logo-mark">ES</div>
+      <div class="logo-text">
+        <span class="logo-top">EMMA SHINE</span>
+        <span class="logo-bot" data-fr="Groupe Imperium" data-en="Imperium Group">Groupe Imperium</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about"    data-fr="L'Agence"   data-en="Agency">L'Agence</a></li>
+      <li><a href="#services" data-fr="Prestations" data-en="Services">Prestations</a></li>
+      <li><a href="#team"     data-fr="Nos Profils" data-en="Profiles">Nos Profils</a></li>
+      <li><a href="#coverage" data-fr="Couverture"  data-en="Coverage">Couverture</a></li>
+      <li><a href="#clients"  data-fr="Références"  data-en="References">Références</a></li>
+      <li><a href="#contact"  data-fr="Contact"     data-en="Contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="lang-toggle" id="langToggle" aria-label="Toggle language">EN</button>
+      <a href="#contact" class="nav-cta" data-fr="Demande de devis" data-en="Get a quote">Demande de devis</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-slideshow" id="heroSlideshow">
+    <div class="slide active" style="background-image:url('https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=1920&q=85')"></div>
+    <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=1920&q=85')"></div>
+    <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=85')"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-particles" id="particles"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow reveal-hero">
+      <span class="eyebrow-line"></span>
+      <span data-fr="Nouvelle agence du Groupe Imperium · France &amp; Europe" data-en="New agency of the Imperium Group · France &amp; Europe">Nouvelle agence du Groupe Imperium · France &amp; Europe</span>
+      <span class="eyebrow-line"></span>
+    </div>
+    <h1 class="hero-title reveal-hero">
+      <span class="ht-1" data-fr="L'Excellence" data-en="Excellence">L'Excellence</span>
+      <span class="ht-2" data-fr="à votre Service" data-en="at Your Service">à votre Service</span>
+    </h1>
+    <p class="hero-desc reveal-hero" data-fr="Hôtesses &amp; Hôtes d'accueil d'exception pour vos événements professionnels et privés, partout en France et en Europe." data-en="Exceptional hostesses &amp; hosts for your professional and private events, across France and Europe.">
+      Hôtesses &amp; Hôtes d'accueil d'exception pour vos événements professionnels et privés,<br>partout en France et en Europe.
+    </p>
+    <div class="hero-ctas reveal-hero">
+      <a href="#contact" class="btn-gold" data-fr="Obtenir un devis" data-en="Get a quote">Obtenir un devis</a>
+      <a href="#services" class="btn-ghost" data-fr="Découvrir nos services" data-en="Discover our services">Découvrir nos services</a>
+    </div>
+    <div class="hero-trust reveal-hero">
+      <div class="trust-item">
+        <span class="trust-num">10<sup>+</sup></span>
+        <span data-fr="Ans d'expérience dans nos équipes" data-en="Years of experience in our teams">Ans d'expérience dans nos équipes</span>
+      </div>
+      <div class="trust-sep"></div>
+      <div class="trust-item">
+        <span class="trust-num">150<sup>+</sup></span>
+        <span data-fr="Profils qualifiés disponibles" data-en="Qualified profiles available">Profils qualifiés disponibles</span>
+      </div>
+      <div class="trust-sep"></div>
+      <div class="trust-item">
+        <span class="trust-num">20<sup>+</sup></span>
+        <span data-fr="Pays couverts en Europe" data-en="Countries covered in Europe">Pays couverts en Europe</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-slide-ctrl">
+    <span class="slide-dot active" data-idx="0"></span>
+    <span class="slide-dot" data-idx="1"></span>
+    <span class="slide-dot" data-idx="2"></span>
+  </div>
+  <div class="hero-scroll-cue" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+    <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+    <span data-fr="Défiler" data-en="Scroll">Défiler</span>
+  </div>
+</section>
+
+<!-- RIBBON -->
+<div class="ribbon">
+  <div class="ribbon-track">
+    <span>Paris</span><span class="rdot">✦</span>
+    <span>Lyon</span><span class="rdot">✦</span>
+    <span>Marseille</span><span class="rdot">✦</span>
+    <span>Bordeaux</span><span class="rdot">✦</span>
+    <span>Cannes</span><span class="rdot">✦</span>
+    <span>Monaco</span><span class="rdot">✦</span>
+    <span>Nice</span><span class="rdot">✦</span>
+    <span>Londres</span><span class="rdot">✦</span>
+    <span>Milan</span><span class="rdot">✦</span>
+    <span>Madrid</span><span class="rdot">✦</span>
+    <span>Genève</span><span class="rdot">✦</span>
+    <span>Bruxelles</span><span class="rdot">✦</span>
+    <span>Amsterdam</span><span class="rdot">✦</span>
+    <span>Francfort</span><span class="rdot">✦</span>
+    <span>Barcelone</span><span class="rdot">✦</span>
+    <!-- repeat -->
+    <span>Paris</span><span class="rdot">✦</span>
+    <span>Lyon</span><span class="rdot">✦</span>
+    <span>Marseille</span><span class="rdot">✦</span>
+    <span>Bordeaux</span><span class="rdot">✦</span>
+    <span>Cannes</span><span class="rdot">✦</span>
+    <span>Monaco</span><span class="rdot">✦</span>
+    <span>Nice</span><span class="rdot">✦</span>
+    <span>Londres</span><span class="rdot">✦</span>
+    <span>Milan</span><span class="rdot">✦</span>
+    <span>Madrid</span><span class="rdot">✦</span>
+    <span>Genève</span><span class="rdot">✦</span>
+    <span>Bruxelles</span><span class="rdot">✦</span>
+    <span>Amsterdam</span><span class="rdot">✦</span>
+    <span>Francfort</span><span class="rdot">✦</span>
+    <span>Barcelone</span><span class="rdot">✦</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-media reveal-left">
+        <div class="am-main">
+          <img src="https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=900&q=85" alt="Emma Shine" />
+          <div class="am-frame"></div>
+        </div>
+        <div class="am-secondary">
+          <img src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=600&q=85" alt="Équipe" />
+        </div>
+        <div class="am-badge">
+          <div class="amb-inner">
+            <span class="amb-num" style="font-size:1.4rem;letter-spacing:-.02em">GROUPE</span>
+            <span class="amb-label" data-fr="Imperium" data-en="Imperium">Imperium</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-body reveal-right">
+        <div class="stag" data-fr="Qui sommes-nous" data-en="Who we are">Qui sommes-nous</div>
+        <h2 class="stitle" data-fr="Une Nouvelle Agence, une Expérience Éprouvée" data-en="A New Agency, a Proven Experience">Une Nouvelle Agence, une Expérience Éprouvée</h2>
+        <div class="gline"></div>
+        <p data-fr="Emma Shine est une agence nouvellement créée, fière d'appartenir au Groupe Imperium. Si notre enseigne est jeune, notre savoir-faire, lui, ne l'est pas : nos équipes réunissent des professionnels de l'accueil haut de gamme forts de plusieurs années d'expérience terrain dans les domaines de l'événementiel, du protocole et du luxe." data-en="Emma Shine is a newly created agency, proud to be part of the Imperium Group. While our brand is young, our expertise is not: our teams bring together premium hospitality professionals with several years of hands-on experience in events, protocol and luxury.">
+          Emma Shine est une agence nouvellement créée, fière d'appartenir au Groupe Imperium. Si notre enseigne est jeune, notre savoir-faire, lui, ne l'est pas : nos équipes réunissent des professionnels de l'accueil haut de gamme forts de plusieurs années d'expérience terrain dans les domaines de l'événementiel, du protocole et du luxe.
+        </p>
+        <p data-fr="Portés par la vision et les ressources du Groupe Imperium, nous apportons à chaque client une qualité de prestation immédiatement au niveau des plus grandes agences, avec la réactivité et l'attention d'une structure à taille humaine entièrement dédiée à votre satisfaction." data-en="Backed by the vision and resources of the Imperium Group, we bring every client a quality of service immediately on par with the biggest agencies, with the responsiveness and attention of a human-sized structure entirely dedicated to your satisfaction.">
+          Portés par la vision et les ressources du Groupe Imperium, nous apportons à chaque client une qualité de prestation immédiatement au niveau des plus grandes agences, avec la réactivité d'une structure entièrement dédiée à votre satisfaction.
+        </p>
+        <div class="about-pillars">
+          <div class="pillar">
+            <div class="pillar-icon">✦</div>
+            <div>
+              <strong data-fr="Adossée au Groupe Imperium" data-en="Backed by the Imperium Group">Adossée au Groupe Imperium</strong>
+              <span data-fr="Ressources, réseau et standards d'excellence du groupe" data-en="Group resources, network and standards of excellence">Ressources, réseau et standards d'excellence du groupe</span>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">✦</div>
+            <div>
+              <strong data-fr="Équipes Expérimentées" data-en="Experienced Teams">Équipes Expérimentées</strong>
+              <span data-fr="Nos profils cumulent des années d'expérience en accueil" data-en="Our profiles combine years of hospitality experience">Nos profils cumulent des années d'expérience en accueil</span>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">✦</div>
+            <div>
+              <strong data-fr="Couverture France & Europe" data-en="France & Europe Coverage">Couverture France & Europe</strong>
+              <span data-fr="Déployés sur l'ensemble du territoire et en Europe" data-en="Deployed across the entire territory and in Europe">Déployés sur l'ensemble du territoire et en Europe</span>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">✦</div>
+            <div>
+              <strong data-fr="Ambition Sans Compromis" data-en="Ambition Without Compromise">Ambition Sans Compromis</strong>
+              <span data-fr="La fraîcheur d'une nouvelle structure, l'excellence d'une grande agence" data-en="The freshness of a new structure, the excellence of a major agency">La fraîcheur d'une nouvelle structure, l'excellence d'une grande agence</span>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn-gold" data-fr="Travailler avec nous" data-en="Work with us">Travailler avec nous</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services section" id="services">
+  <div class="svc-deco-left"></div>
+  <div class="svc-deco-right"></div>
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="stag" data-fr="Nos Expertises" data-en="Our Expertise">Nos Expertises</div>
+      <h2 class="stitle center" data-fr="Des Prestations Sur-Mesure" data-en="Tailor-Made Services">Des Prestations Sur-Mesure</h2>
+      <div class="gline center"></div>
+      <p class="ssub" data-fr="Six pôles d'excellence pour répondre à tous vos besoins événementiels, en France et à travers l'Europe." data-en="Six poles of excellence to meet all your event needs, in France and across Europe.">Six pôles d'excellence pour répondre à tous vos besoins événementiels, en France et à travers l'Europe.</p>
+    </div>
+    <div class="svc-grid">
+
+      <div class="svc-card reveal-up">
+        <div class="svc-top">
+          <div class="svc-num">01</div>
+          <div class="svc-icon">
+            <svg viewBox="0 0 56 56" fill="none"><path d="M28 8C19.163 8 12 15.163 12 24c0 5.6 2.88 10.52 7.24 13.44L28 48l8.76-10.56C41.12 34.52 44 29.6 44 24c0-8.837-7.163-16-16-16z" stroke="currentColor" stroke-width="1.5"/><circle cx="28" cy="24" r="5" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+        </div>
+        <h3 data-fr="Salons & Congrès" data-en="Trade Shows & Congresses">Salons & Congrès</h3>
+        <p data-fr="Hôtesses et hôtes professionnels pour vos salons professionnels, congrès scientifiques et foires commerciales. Accueil, orientation, gestion des badges et représentation de marque au plus haut niveau." data-en="Professional hostesses and hosts for your trade shows, scientific congresses and commercial fairs. Welcome, guidance, badge management and top-level brand representation.">Hôtesses et hôtes professionnels pour vos salons, congrès et foires commerciales. Accueil, orientation, gestion des badges et représentation de marque au plus haut niveau.</p>
+        <div class="svc-tags">
+          <span data-fr="Paris Le Bourget" data-en="Paris Le Bourget">Paris Le Bourget</span>
+          <span>Eurexpo Lyon</span>
+          <span data-fr="Parc des Expositions" data-en="Exhibition Centre">Parc des Expositions</span>
+        </div>
+        <a href="#contact" class="svc-cta" data-fr="Demander un devis →" data-en="Request a quote →">Demander un devis →</a>
+      </div>
+
+      <div class="svc-card reveal-up" style="--d:.08s">
+        <div class="svc-top">
+          <div class="svc-num">02</div>
+          <div class="svc-icon">
+            <svg viewBox="0 0 56 56" fill="none"><path d="M14 42V22l14-14 14 14v20" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><rect x="22" y="30" width="12" height="12" stroke="currentColor" stroke-width="1.5"/><path d="M10 42h36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <h3 data-fr="Soirées & Galas VIP" data-en="VIP Evenings & Galas">Soirées & Galas VIP</h3>
+        <p data-fr="Pour vos dîners de prestige, soirées de gala et remises de prix, nos hôtes VIP incarnent l'élégance absolue. Accueil des personnalités, gestion du protocole, placement des invités et coordination discrète." data-en="For your prestige dinners, gala evenings and award ceremonies, our VIP hosts embody absolute elegance. Welcome of personalities, protocol management, guest placement and discreet coordination.">Pour vos dîners de prestige, soirées de gala et remises de prix, nos hôtes VIP incarnent l'élégance absolue. Accueil des personnalités, protocole et coordination.</p>
+        <div class="svc-tags">
+          <span>Black Tie</span>
+          <span data-fr="Protocole international" data-en="International protocol">Protocole international</span>
+          <span>VIP Management</span>
+        </div>
+        <a href="#contact" class="svc-cta" data-fr="Demander un devis →" data-en="Request a quote →">Demander un devis →</a>
+      </div>
+
+      <div class="svc-card reveal-up" style="--d:.16s">
+        <div class="svc-top">
+          <div class="svc-num">03</div>
+          <div class="svc-icon">
+            <svg viewBox="0 0 56 56" fill="none"><rect x="8" y="14" width="40" height="30" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M8 22h40M20 14v8M36 14v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <h3 data-fr="Accueil Entreprise" data-en="Corporate Reception">Accueil Entreprise</h3>
+        <p data-fr="Hôtesses permanentes ou ponctuelles pour l'accueil de vos sièges sociaux, sites industriels et showrooms. La première impression laissée à vos visiteurs, clients et partenaires est notre responsabilité." data-en="Permanent or occasional hostesses for welcoming your headquarters, industrial sites and showrooms. The first impression left on your visitors, clients and partners is our responsibility.">Hôtesses permanentes ou ponctuelles pour vos sièges sociaux, sites industriels et showrooms. La première impression de vos visiteurs est notre responsabilité.</p>
+        <div class="svc-tags">
+          <span data-fr="Mission longue durée" data-en="Long-term mission">Mission longue durée</span>
+          <span data-fr="Tenue personnalisée" data-en="Custom uniform">Tenue personnalisée</span>
+        </div>
+        <a href="#contact" class="svc-cta" data-fr="Demander un devis →" data-en="Request a quote →">Demander un devis →</a>
+      </div>
+
+      <div class="svc-card reveal-up" style="--d:.24s">
+        <div class="svc-top">
+          <div class="svc-num">04</div>
+          <div class="svc-icon">
+            <svg viewBox="0 0 56 56" fill="none"><circle cx="28" cy="20" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 48c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M40 14c2.2 1.6 4 4.2 4 8M44 28c4 2 8 6 8 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+        </div>
+        <h3 data-fr="Profils Multilingues" data-en="Multilingual Profiles">Profils Multilingues</h3>
+        <p data-fr="Hôtesses bilingues, trilingues et interprètes de liaison pour vos événements internationaux. Maîtrise courante de l'anglais, espagnol, allemand, italien, portugais, arabe, mandarin et bien d'autres langues." data-en="Bilingual, trilingual hostesses and liaison interpreters for your international events. Fluency in English, Spanish, German, Italian, Portuguese, Arabic, Mandarin and many more.">Hôtesses bilingues, trilingues et interprètes pour vos événements internationaux. FR, EN, ES, DE, IT, PT, AR, ZH et bien d'autres.</p>
+        <div class="svc-tags">
+          <span>FR / EN / ES</span>
+          <span>DE / IT / PT</span>
+          <span>AR / ZH / …</span>
+        </div>
+        <a href="#contact" class="svc-cta" data-fr="Demander un devis →" data-en="Request a quote →">Demander un devis →</a>
+      </div>
+
+      <div class="svc-card reveal-up" style="--d:.32s">
+        <div class="svc-top">
+          <div class="svc-num">05</div>
+          <div class="svc-icon">
+            <svg viewBox="0 0 56 56" fill="none"><path d="M28 8l4 12h13l-10.5 8 4 12L28 33l-10.5 7 4-12L11 20h13z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+        <h3 data-fr="Brand Ambassadors" data-en="Brand Ambassadors">Brand Ambassadors</h3>
+        <p data-fr="Promotrices formées à vos produits et à votre identité de marque. Animation de stand, démonstrations, distributions d'échantillons et expériences consommateurs hautement qualifiées pour maximiser votre impact." data-en="Promoters trained in your products and brand identity. Stand animation, demonstrations, sample distribution and highly qualified consumer experiences to maximise your impact.">Promotrices formées à votre identité de marque. Animation de stand, démonstrations et expériences consommateurs haut de gamme pour maximiser votre impact.</p>
+        <div class="svc-tags">
+          <span data-fr="Formation produit" data-en="Product training">Formation produit</span>
+          <span data-fr="Reporting détaillé" data-en="Detailed reporting">Reporting détaillé</span>
+        </div>
+        <a href="#contact" class="svc-cta" data-fr="Demander un devis →" data-en="Request a quote →">Demander un devis →</a>
+      </div>
+
+      <div class="svc-card reveal-up" style="--d:.4s">
+        <div class="svc-top">
+          <div class="svc-num">06</div>
+          <div class="svc-icon">
+            <svg viewBox="0 0 56 56" fill="none"><path d="M28 10c-7 0-14 4-14 12 0 10 14 24 14 24s14-14 14-24c0-8-7-12-14-12z" stroke="currentColor" stroke-width="1.5"/><path d="M22 24l4 4 8-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+        <h3 data-fr="Mariages & Événements Privés" data-en="Weddings & Private Events">Mariages & Événements Privés</h3>
+        <p data-fr="Un mariage, un anniversaire, une réception privée mérite un accueil à la hauteur de ses ambitions. Nos hôtesses apportent une touche de raffinement inoubliable à vos célébrations les plus précieuses." data-en="A wedding, a birthday, a private reception deserves a welcome that matches its ambitions. Our hostesses bring an unforgettable touch of refinement to your most precious celebrations.">Un mariage ou une réception privée mérite un accueil à la hauteur de ses ambitions. Nos hôtesses apportent une touche de raffinement inoubliable.</p>
+        <div class="svc-tags">
+          <span data-fr="Tenue au choix" data-en="Outfit of choice">Tenue au choix</span>
+          <span data-fr="Coordination incluse" data-en="Coordination included">Coordination incluse</span>
+        </div>
+        <a href="#contact" class="svc-cta" data-fr="Demander un devis →" data-en="Request a quote →">Demander un devis →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process section">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="stag" data-fr="Notre Méthode" data-en="Our Method">Notre Méthode</div>
+      <h2 class="stitle center" data-fr="De votre Brief à l'Événement" data-en="From Your Brief to the Event">De votre Brief à l'Événement</h2>
+      <div class="gline center"></div>
+    </div>
+    <div class="process-row">
+      <div class="proc-step reveal-up">
+        <div class="ps-num">01</div>
+        <div class="ps-icon">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M8 32V16l12-10 12 10v16" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><rect x="15" y="22" width="10" height="10" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+        <h4 data-fr="Brief & Analyse" data-en="Brief & Analysis">Brief & Analyse</h4>
+        <p data-fr="Vous nous partagez votre événement, vos attentes et votre image de marque. Nous analysons chaque détail." data-en="You share your event, expectations and brand image. We analyse every detail.">Vous nous partagez votre événement, vos attentes et votre image de marque. Nous analysons chaque détail.</p>
+      </div>
+      <div class="proc-connector reveal-up" style="--d:.1s"><span></span></div>
+      <div class="proc-step reveal-up" style="--d:.1s">
+        <div class="ps-num">02</div>
+        <div class="ps-icon">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="16" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M8 34c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h4 data-fr="Sélection des Profils" data-en="Profile Selection">Sélection des Profils</h4>
+        <p data-fr="Parmi nos 150+ profils certifiés, nous vous proposons une shortlist correspondant exactement à vos critères." data-en="From our 150+ certified profiles, we propose a shortlist matching exactly your criteria.">Parmi nos 150+ profils certifiés, nous proposons une shortlist correspondant exactement à vos critères.</p>
+      </div>
+      <div class="proc-connector reveal-up" style="--d:.2s"><span></span></div>
+      <div class="proc-step reveal-up" style="--d:.2s">
+        <div class="ps-num">03</div>
+        <div class="ps-icon">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M10 20h20M10 14h20M10 26h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h4 data-fr="Validation & Briefing" data-en="Validation & Briefing">Validation & Briefing</h4>
+        <p data-fr="Vous validez votre équipe. Nous assurons un briefing approfondi sur votre marque, le protocole et les missions." data-en="You validate your team. We provide in-depth briefing on your brand, protocol and missions.">Vous validez votre équipe. Nous assurons un briefing complet sur votre marque, le protocole et les missions.</p>
+      </div>
+      <div class="proc-connector reveal-up" style="--d:.3s"><span></span></div>
+      <div class="proc-step reveal-up" style="--d:.3s">
+        <div class="ps-num">04</div>
+        <div class="ps-icon">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 6l3.5 10H34l-8.5 6.5 3.5 10L20 26l-9 6.5 3.5-10L6 16h10.5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </div>
+        <h4 data-fr="Jour J & Suivi" data-en="Event Day & Follow-up">Jour J & Suivi</h4>
+        <p data-fr="Votre équipe est irréprochable. Un coordinateur Emma Shine, fort d'une solide expérience terrain, est disponible en temps réel tout au long de votre événement." data-en="Your team is impeccable. An Emma Shine coordinator, with solid field experience, is available in real time throughout your event.">Votre équipe est irréprochable. Un coordinateur Emma Shine, fort d'une solide expérience terrain, est disponible en temps réel tout au long de votre événement.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="team section" id="team">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="stag" data-fr="Nos Talents" data-en="Our Talents">Nos Talents</div>
+      <h2 class="stitle center" data-fr="Des Profils d'Exception" data-en="Exceptional Profiles">Des Profils d'Exception</h2>
+      <div class="gline center"></div>
+      <p class="ssub" data-fr="Nos hôtesses et hôtes sont des professionnels aguerris, issus du monde de l'événementiel haut de gamme, rigoureusement sélectionnés pour leur expérience, leur présentation et leur maîtrise des codes du luxe." data-en="Our hostesses and hosts are seasoned professionals from the high-end events world, rigorously selected for their experience, presentation and mastery of luxury codes.">Nos hôtesses et hôtes sont des professionnels aguerris, issus du monde de l'événementiel haut de gamme, rigoureusement sélectionnés pour leur expérience, leur présentation et leur maîtrise des codes du luxe.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card reveal-up">
+        <div class="tc-img">
+          <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=85" alt="Sofia M." />
+          <div class="tc-overlay">
+            <div class="tc-langs"><span>FR</span><span>EN</span><span>IT</span></div>
+            <p class="tc-spec" data-fr="Hôtesse VIP · Protocole" data-en="VIP Hostess · Protocol">Hôtesse VIP · Protocole</p>
+            <p class="tc-exp" data-fr="7 ans d'expérience" data-en="7 years experience">7 ans d'expérience</p>
+          </div>
+        </div>
+        <div class="tc-info">
+          <h4>Sofia M.</h4>
+          <span>Paris · Monaco · Cannes</span>
+        </div>
+      </div>
+      <div class="team-card reveal-up" style="--d:.1s">
+        <div class="tc-img">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&q=85" alt="Camille R." />
+          <div class="tc-overlay">
+            <div class="tc-langs"><span>FR</span><span>EN</span><span>ES</span></div>
+            <p class="tc-spec" data-fr="Brand Ambassador" data-en="Brand Ambassador">Brand Ambassador</p>
+            <p class="tc-exp" data-fr="5 ans d'expérience" data-en="5 years experience">5 ans d'expérience</p>
+          </div>
+        </div>
+        <div class="tc-info">
+          <h4>Camille R.</h4>
+          <span>Paris · Bordeaux · Madrid</span>
+        </div>
+      </div>
+      <div class="team-card reveal-up" style="--d:.2s">
+        <div class="tc-img">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=85" alt="Emma L." />
+          <div class="tc-overlay">
+            <div class="tc-langs"><span>FR</span><span>EN</span><span>DE</span></div>
+            <p class="tc-spec" data-fr="Hôtesse Événementielle" data-en="Event Hostess">Hôtesse Événementielle</p>
+            <p class="tc-exp" data-fr="4 ans d'expérience" data-en="4 years experience">4 ans d'expérience</p>
+          </div>
+        </div>
+        <div class="tc-info">
+          <h4>Emma L.</h4>
+          <span>Lyon · Francfort · Berlin</span>
+        </div>
+      </div>
+      <div class="team-card reveal-up" style="--d:.3s">
+        <div class="tc-img">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=85" alt="Jade K." />
+          <div class="tc-overlay">
+            <div class="tc-langs"><span>FR</span><span>EN</span><span>NL</span></div>
+            <p class="tc-spec" data-fr="Hôtesse Salon · Trilingue" data-en="Trade Show · Trilingual">Hôtesse Salon · Trilingue</p>
+            <p class="tc-exp" data-fr="6 ans d'expérience" data-en="6 years experience">6 ans d'expérience</p>
+          </div>
+        </div>
+        <div class="tc-info">
+          <h4>Jade K.</h4>
+          <span>Paris · Bruxelles · Amsterdam</span>
+        </div>
+      </div>
+    </div>
+    <div class="team-bottom reveal-up">
+      <div class="tb-stat"><span>150<sup>+</sup></span><p data-fr="Profils disponibles" data-en="Available profiles">Profils disponibles</p></div>
+      <div class="tb-stat"><span>10<sup>+</sup></span><p data-fr="Ans d'expérience en moyenne" data-en="Average years of experience">Ans d'expérience en moyenne</p></div>
+      <div class="tb-stat"><span>15<sup>+</sup></span><p data-fr="Langues maîtrisées" data-en="Languages mastered">Langues maîtrisées</p></div>
+      <a href="#contact" class="btn-gold" data-fr="Consulter les profils disponibles" data-en="Browse available profiles">Consulter les profils disponibles</a>
+    </div>
+  </div>
+</section>
+
+<!-- COVERAGE / PRESENCE -->
+<section class="coverage section" id="coverage">
+  <div class="coverage-bg"></div>
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="stag" data-fr="Notre Présence" data-en="Our Presence">Notre Présence</div>
+      <h2 class="stitle center" data-fr="France Entière & Europe" data-en="All of France & Europe">France Entière & Europe</h2>
+      <div class="gline center"></div>
+      <p class="ssub" data-fr="Emma Shine intervient sur l'ensemble du territoire français et dans plus de 20 pays européens. Où que soit votre événement, nous sommes là." data-en="Emma Shine operates across all of France and in more than 20 European countries. Wherever your event is, we are there.">Emma Shine intervient sur l'ensemble du territoire français et dans plus de 20 pays européens. Où que soit votre événement, nous sommes là.</p>
+    </div>
+    <div class="coverage-grid">
+      <div class="cov-zone reveal-left">
+        <div class="cz-header">
+          <div class="cz-flag">🇫🇷</div>
+          <h3 data-fr="France" data-en="France">France</h3>
+        </div>
+        <div class="cz-cities">
+          <div class="cz-city featured"><span class="cc-dot"></span>Paris <span class="cc-badge" data-fr="Siège" data-en="HQ">Siège</span></div>
+          <div class="cz-city"><span class="cc-dot"></span>Lyon</div>
+          <div class="cz-city"><span class="cc-dot"></span>Marseille</div>
+          <div class="cz-city"><span class="cc-dot"></span>Bordeaux</div>
+          <div class="cz-city"><span class="cc-dot"></span>Nice</div>
+          <div class="cz-city"><span class="cc-dot"></span>Cannes</div>
+          <div class="cz-city"><span class="cc-dot"></span>Monaco</div>
+          <div class="cz-city"><span class="cc-dot"></span>Toulouse</div>
+          <div class="cz-city"><span class="cc-dot"></span>Lille</div>
+          <div class="cz-city"><span class="cc-dot"></span>Strasbourg</div>
+          <div class="cz-city"><span class="cc-dot"></span>Nantes</div>
+          <div class="cz-city"><span class="cc-dot"></span>Montpellier</div>
+          <div class="cz-city plus" data-fr="+ tout le territoire" data-en="+ entire territory">+ tout le territoire</div>
+        </div>
+      </div>
+      <div class="cov-map reveal-up" style="--d:.1s">
+        <div class="map-visual">
+          <div class="map-circle outer"></div>
+          <div class="map-circle middle"></div>
+          <div class="map-circle inner"></div>
+          <div class="map-center">
+            <span class="mc-logo">ES</span>
+            <span class="mc-label" data-fr="Paris" data-en="Paris">Paris</span>
+          </div>
+          <!-- France dots -->
+          <div class="map-dot" style="--x:48%;--y:30%;--s:12px" title="Paris"></div>
+          <div class="map-dot" style="--x:52%;--y:45%;--s:9px" title="Lyon"></div>
+          <div class="map-dot" style="--x:45%;--y:60%;--s:8px" title="Marseille"></div>
+          <div class="map-dot" style="--x:35%;--y:52%;--s:8px" title="Bordeaux"></div>
+          <div class="map-dot" style="--x:30%;--y:40%;--s:7px" title="Nantes"></div>
+          <div class="map-dot" style="--x:55%;--y:22%;--s:7px" title="Lille"></div>
+          <div class="map-dot" style="--x:60%;--y:35%;--s:7px" title="Strasbourg"></div>
+          <div class="map-dot" style="--x:55%;--y:58%;--s:7px" title="Nice"></div>
+          <!-- Europe dots -->
+          <div class="map-dot europe" style="--x:38%;--y:18%;--s:10px" title="Londres"></div>
+          <div class="map-dot europe" style="--x:54%;--y:14%;--s:8px" title="Amsterdam"></div>
+          <div class="map-dot europe" style="--x:50%;--y:8%;--s:8px" title="Bruxelles"></div>
+          <div class="map-dot europe" style="--x:65%;--y:20%;--s:9px" title="Francfort"></div>
+          <div class="map-dot europe" style="--x:68%;--y:30%;--s:8px" title="Munich"></div>
+          <div class="map-dot europe" style="--x:65%;--y:48%;--s:9px" title="Milan"></div>
+          <div class="map-dot europe" style="--x:62%;--y:56%;--s:8px" title="Rome"></div>
+          <div class="map-dot europe" style="--x:30%;--y:58%;--s:9px" title="Madrid"></div>
+          <div class="map-dot europe" style="--x:40%;--y:68%;--s:8px" title="Barcelone"></div>
+          <div class="map-dot europe" style="--x:62%;--y:38%;--s:8px" title="Genève"></div>
+          <div class="map-dot europe" style="--x:72%;--y:18%;--s:7px" title="Hambourg"></div>
+          <div class="map-dot europe" style="--x:75%;--y:10%;--s:8px" title="Copenhague"></div>
+          <div class="map-dot europe" style="--x:78%;--y:25%;--s:8px" title="Stockholm"></div>
+          <div class="map-dot europe" style="--x:80%;--y:38%;--s:7px" title="Varsovie"></div>
+          <div class="map-dot europe" style="--x:22%;--y:35%;--s:7px" title="Dublin"></div>
+          <!-- Labels -->
+          <div class="map-label" style="--x:42%;--y:31%">Paris</div>
+          <div class="map-label small" style="--x:30%;--y:16%">Londres</div>
+          <div class="map-label small" style="--x:67%;--y:42%">Milan</div>
+          <div class="map-label small" style="--x:22%;--y:51%">Madrid</div>
+        </div>
+        <div class="map-legend">
+          <div class="ml-item"><span class="ml-dot france"></span><span data-fr="France (antennes locales)" data-en="France (local offices)">France (antennes locales)</span></div>
+          <div class="ml-item"><span class="ml-dot europe"></span><span data-fr="Europe (partenaires certifiés)" data-en="Europe (certified partners)">Europe (partenaires certifiés)</span></div>
+        </div>
+      </div>
+      <div class="cov-zone reveal-right" style="--d:.2s">
+        <div class="cz-header">
+          <div class="cz-flag">🌍</div>
+          <h3 data-fr="Europe" data-en="Europe">Europe</h3>
+        </div>
+        <div class="cz-cities">
+          <div class="cz-city"><span class="cc-dot eu"></span>Londres</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Bruxelles</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Amsterdam</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Milan</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Madrid</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Barcelone</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Genève</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Francfort</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Munich</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Copenhague</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Stockholm</div>
+          <div class="cz-city"><span class="cc-dot eu"></span>Varsovie</div>
+          <div class="cz-city plus" data-fr="+ 10 pays supplémentaires" data-en="+ 10 additional countries">+ 10 pays supplémentaires</div>
+        </div>
+      </div>
+    </div>
+    <div class="cov-cta reveal-up">
+      <p data-fr="Votre événement est hors de ces villes ? Contactez-nous, nous intervenons partout." data-en="Your event is outside these cities? Contact us, we operate everywhere.">Votre événement est hors de ces villes ? Contactez-nous, nous intervenons partout.</p>
+      <a href="#contact" class="btn-gold" data-fr="Vérifier la disponibilité" data-en="Check availability">Vérifier la disponibilité</a>
+    </div>
+  </div>
+</section>
+
+<!-- PARALLAX QUOTE -->
+<section class="pq-section">
+  <div class="pq-bg" style="background-image:url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1920&q=85')"></div>
+  <div class="pq-overlay"></div>
+  <div class="pq-content reveal-up">
+    <div class="pq-icon">"</div>
+    <blockquote data-fr="L'élégance n'est pas d'être remarquée, c'est d'être mémorable." data-en="Elegance is not about being noticed, it is about being remembered.">"L'élégance n'est pas d'être remarquée, c'est d'être mémorable."</blockquote>
+    <cite>— Giorgio Armani</cite>
+    <div class="pq-stats">
+      <div><span>10<sup>+</sup></span><p data-fr="Ans d'expérience dans nos équipes" data-en="Years of team experience">Ans d'expérience dans nos équipes</p></div>
+      <div class="pqs-div"></div>
+      <div><span>150<sup>+</sup></span><p data-fr="Profils disponibles" data-en="Available profiles">Profils disponibles</p></div>
+      <div class="pqs-div"></div>
+      <div><span>20<sup>+</sup></span><p data-fr="Pays couverts" data-en="Countries covered">Pays couverts</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery section" id="gallery">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="stag" data-fr="Galerie" data-en="Gallery">Galerie</div>
+      <h2 class="stitle center" data-fr="L'Univers Emma Shine" data-en="The Emma Shine World">L'Univers Emma Shine</h2>
+      <div class="gline center"></div>
+    </div>
+    <div class="gal-grid">
+      <div class="gal-item g-large reveal-up">
+        <img src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=900&q=85" alt="Gala" />
+        <div class="gal-caption"><span data-fr="Soirée de Gala · Paris" data-en="Gala Evening · Paris">Soirée de Gala · Paris</span></div>
+      </div>
+      <div class="gal-item reveal-up" style="--d:.05s">
+        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=85" alt="Salon" />
+        <div class="gal-caption"><span data-fr="Salon International" data-en="International Fair">Salon International</span></div>
+      </div>
+      <div class="gal-item reveal-up" style="--d:.1s">
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&q=85" alt="Event" />
+        <div class="gal-caption"><span data-fr="Événement Corporate" data-en="Corporate Event">Événement Corporate</span></div>
+      </div>
+      <div class="gal-item g-tall reveal-up" style="--d:.15s">
+        <img src="https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=600&q=85" alt="Accueil VIP" />
+        <div class="gal-caption"><span data-fr="Accueil VIP" data-en="VIP Welcome">Accueil VIP</span></div>
+      </div>
+      <div class="gal-item reveal-up" style="--d:.2s">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=85" alt="Dîner" />
+        <div class="gal-caption"><span data-fr="Dîner de Prestige" data-en="Prestige Dinner">Dîner de Prestige</span></div>
+      </div>
+      <div class="gal-item reveal-up" style="--d:.25s">
+        <img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=600&q=85" alt="Cocktail" />
+        <div class="gal-caption"><span data-fr="Cocktail Privé" data-en="Private Cocktail">Cocktail Privé</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="clients section" id="clients">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="stag" data-fr="L'héritage du Groupe" data-en="Group Legacy">L'héritage du Groupe</div>
+      <h2 class="stitle center" data-fr="L'Expérience du Groupe Imperium à votre Service" data-en="The Imperium Group's Experience at Your Service">L'Expérience du Groupe Imperium à votre Service</h2>
+      <div class="gline center"></div>
+      <p class="ssub" data-fr="Emma Shine bénéficie du réseau, de la réputation et du savoir-faire bâtis par le Groupe Imperium auprès des plus grandes maisons et événements de prestige." data-en="Emma Shine benefits from the network, reputation and expertise built by the Imperium Group with the greatest luxury houses and prestige events.">Emma Shine bénéficie du réseau, de la réputation et du savoir-faire bâtis par le Groupe Imperium auprès des plus grandes maisons et événements de prestige.</p>
+    </div>
+    <div class="brands-marquee reveal-up">
+      <div class="brands-track">
+        <span>LVMH</span><span class="sep">✦</span>
+        <span>Chanel</span><span class="sep">✦</span>
+        <span>Dior</span><span class="sep">✦</span>
+        <span>Hermès</span><span class="sep">✦</span>
+        <span>Rolex</span><span class="sep">✦</span>
+        <span>Moët Hennessy</span><span class="sep">✦</span>
+        <span>Cartier</span><span class="sep">✦</span>
+        <span>Sotheby's</span><span class="sep">✦</span>
+        <span>BMW Group</span><span class="sep">✦</span>
+        <span>Louis Vuitton</span><span class="sep">✦</span>
+        <span>Accor Hotels</span><span class="sep">✦</span>
+        <span>Kering</span><span class="sep">✦</span>
+        <span>LVMH</span><span class="sep">✦</span>
+        <span>Chanel</span><span class="sep">✦</span>
+        <span>Dior</span><span class="sep">✦</span>
+        <span>Hermès</span><span class="sep">✦</span>
+        <span>Rolex</span><span class="sep">✦</span>
+        <span>Moët Hennessy</span><span class="sep">✦</span>
+        <span>Cartier</span><span class="sep">✦</span>
+        <span>Sotheby's</span><span class="sep">✦</span>
+        <span>BMW Group</span><span class="sep">✦</span>
+        <span>Louis Vuitton</span><span class="sep">✦</span>
+        <span>Accor Hotels</span><span class="sep">✦</span>
+        <span>Kering</span><span class="sep">✦</span>
+      </div>
+    </div>
+    <div class="testi-section reveal-up">
+      <div class="testi-wrap" id="testiWrap">
+        <div class="testi-card">
+          <div class="tc-stars group-badge" data-fr="Expérience · Groupe Imperium" data-en="Experience · Imperium Group">Expérience · Groupe Imperium</div>
+          <blockquote data-fr="J'ai coordonné plus de 80 salons internationaux et soirées de gala au cours de ma carrière. Rejoindre Emma Shine, c'est apporter toute cette expérience au service d'une nouvelle ambition, avec la puissance du Groupe Imperium en soutien." data-en="I have coordinated over 80 international trade shows and gala evenings throughout my career. Joining Emma Shine means bringing all that experience to serve a new ambition, with the power of the Imperium Group in support.">"J'ai coordonné plus de 80 salons internationaux et soirées de gala au cours de ma carrière. Rejoindre Emma Shine, c'est apporter toute cette expérience au service d'une nouvelle ambition, avec la puissance du Groupe Imperium en soutien."</blockquote>
+          <div class="tc-author">
+            <div class="tca-av">SM</div>
+            <div>
+              <strong>Sofia M.</strong>
+              <span data-fr="Coordinatrice Senior · 7 ans en accueil VIP" data-en="Senior Coordinator · 7 years in VIP hospitality">Coordinatrice Senior · 7 ans en accueil VIP</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="tc-stars group-badge" data-fr="Expérience · Groupe Imperium" data-en="Experience · Imperium Group">Expérience · Groupe Imperium</div>
+          <blockquote data-fr="Après des années à représenter de grandes marques lors de salons à Paris, Milan et Francfort, je suis enthousiaste à l'idée de construire quelque chose de nouveau avec Emma Shine. Notre équipe cumule un vrai savoir-faire que nous mettons immédiatement à votre disposition." data-en="After years representing major brands at shows in Paris, Milan and Frankfurt, I am excited to build something new with Emma Shine. Our team brings real expertise that we make immediately available to you.">"Après des années à représenter de grandes marques lors de salons à Paris, Milan et Francfort, je suis enthousiaste de construire quelque chose de neuf avec Emma Shine. Notre équipe cumule un vrai savoir-faire immédiatement disponible."</blockquote>
+          <div class="tc-author">
+            <div class="tca-av">CR</div>
+            <div>
+              <strong>Camille R.</strong>
+              <span data-fr="Brand Ambassador Senior · 5 ans d'expérience" data-en="Senior Brand Ambassador · 5 years experience">Brand Ambassador Senior · 5 ans d'expérience</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="tc-stars group-badge" data-fr="Expérience · Groupe Imperium" data-en="Experience · Imperium Group">Expérience · Groupe Imperium</div>
+          <blockquote data-fr="Le Groupe Imperium nous donne les ressources et la crédibilité d'une structure établie, tandis qu'Emma Shine nous permet d'offrir une attention sur-mesure à chaque client. C'est cette combinaison unique qui nous rend déjà compétitifs dès notre lancement." data-en="The Imperium Group gives us the resources and credibility of an established structure, while Emma Shine allows us to offer tailored attention to each client. It is this unique combination that makes us already competitive from our launch.">"Le Groupe Imperium nous donne les ressources d'une structure établie, tandis qu'Emma Shine permet une attention sur-mesure pour chaque client. Cette combinaison unique nous rend compétitifs dès notre lancement."</blockquote>
+          <div class="tc-author">
+            <div class="tca-av">JK</div>
+            <div>
+              <strong>Jade K.</strong>
+              <span data-fr="Hôtesse Trilingue Senior · 6 ans en événementiel" data-en="Senior Trilingual Hostess · 6 years in events">Hôtesse Trilingue Senior · 6 ans en événementiel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-nav">
+        <button id="tPrev" aria-label="Previous">←</button>
+        <div id="tDots"><span class="tdot active"></span><span class="tdot"></span><span class="tdot"></span></div>
+        <button id="tNext" aria-label="Next">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+  <div class="contact-bg-shape"></div>
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-left reveal-left">
+        <div class="stag" data-fr="Nous contacter" data-en="Contact us">Nous contacter</div>
+        <h2 class="stitle" data-fr="Parlons de votre Projet" data-en="Let's Talk About Your Project">Parlons de votre Projet</h2>
+        <div class="gline"></div>
+        <p data-fr="Notre équipe vous répond dans les 24 heures ouvrées avec une proposition personnalisée adaptée à votre événement et votre budget." data-en="Our team will respond within 24 working hours with a personalised proposal tailored to your event and budget.">Notre équipe vous répond dans les 24 heures ouvrées avec une proposition personnalisée adaptée à votre événement et votre budget.</p>
+        <div class="cinfo-list">
+          <div class="cinfo-item">
+            <div class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            </div>
+            <div>
+              <strong data-fr="Siège Social" data-en="Headquarters">Siège Social</strong>
+              <span>12 Avenue des Champs-Élysées<br>75008 Paris, France</span>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.5 12a19.79 19.79 0 01-3.07-8.67A2 2 0 013.44 1.5h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.91 9a16 16 0 006 6l.91-.91a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <strong data-fr="Téléphone" data-en="Phone">Téléphone</strong>
+              <a href="tel:+33612345678">+33 6 12 34 56 78</a>
+              <span data-fr="Disponible 7j/7" data-en="Available 7 days/7">Disponible 7j/7</span>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:contact@emmashine.com">contact@emmashine.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="csocial">
+          <a href="#" aria-label="Instagram" class="cs-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn" class="cs-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 10v7M7 7v.01M11 10v7M11 13a2 2 0 014 0v4"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook" class="cs-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a4 4 0 00-4 4v3H8v4h3v8h4v-8h3l1-4h-4V6a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok" class="cs-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-box reveal-right">
+        <form id="cForm">
+          <div class="cf-row">
+            <div class="cf-group">
+              <label data-fr="Prénom *" data-en="First name *">Prénom *</label>
+              <input type="text" name="prenom" required placeholder="Marie" />
+            </div>
+            <div class="cf-group">
+              <label data-fr="Nom *" data-en="Last name *">Nom *</label>
+              <input type="text" name="nom" required placeholder="Dupont" />
+            </div>
+          </div>
+          <div class="cf-row">
+            <div class="cf-group">
+              <label data-fr="Email professionnel *" data-en="Business email *">Email professionnel *</label>
+              <input type="email" name="email" required placeholder="marie@societe.com" />
+            </div>
+            <div class="cf-group">
+              <label data-fr="Téléphone" data-en="Phone">Téléphone</label>
+              <input type="tel" name="tel" placeholder="+33 6 00 00 00 00" />
+            </div>
+          </div>
+          <div class="cf-row">
+            <div class="cf-group">
+              <label data-fr="Société" data-en="Company">Société</label>
+              <input type="text" name="societe" placeholder="Nom de votre société" />
+            </div>
+            <div class="cf-group">
+              <label data-fr="Ville / Pays" data-en="City / Country">Ville / Pays</label>
+              <input type="text" name="ville" placeholder="Paris, France" />
+            </div>
+          </div>
+          <div class="cf-group">
+            <label data-fr="Type de prestation *" data-en="Service type *">Type de prestation *</label>
+            <select name="type" required>
+              <option value="" data-fr="Choisissez une prestation…" data-en="Choose a service…">Choisissez une prestation…</option>
+              <option value="salon" data-fr="Salon & Congrès" data-en="Trade Show & Congress">Salon & Congrès</option>
+              <option value="gala" data-fr="Soirée de Gala / VIP" data-en="Gala Evening / VIP">Soirée de Gala / VIP</option>
+              <option value="corporate" data-fr="Accueil Entreprise" data-en="Corporate Reception">Accueil Entreprise</option>
+              <option value="bilingue" data-fr="Profil Multilingue" data-en="Multilingual Profile">Profil Multilingue</option>
+              <option value="brand" data-fr="Brand Ambassador" data-en="Brand Ambassador">Brand Ambassador</option>
+              <option value="prive" data-fr="Événement Privé / Mariage" data-en="Private Event / Wedding">Événement Privé / Mariage</option>
+              <option value="autre" data-fr="Autre" data-en="Other">Autre</option>
+            </select>
+          </div>
+          <div class="cf-row">
+            <div class="cf-group">
+              <label data-fr="Date de l'événement" data-en="Event date">Date de l'événement</label>
+              <input type="date" name="date" />
+            </div>
+            <div class="cf-group">
+              <label data-fr="Nombre de profils souhaités" data-en="Number of profiles needed">Nombre de profils souhaités</label>
+              <input type="number" name="nb" placeholder="ex: 4" min="1" />
+            </div>
+          </div>
+          <div class="cf-group">
+            <label data-fr="Détails de votre événement" data-en="Event details">Détails de votre événement</label>
+            <textarea name="message" rows="4" placeholder="Décrivez votre événement, vos besoins spécifiques, le lieu…"></textarea>
+          </div>
+          <button type="submit" class="btn-gold full" id="cfSubmit">
+            <span data-fr="Envoyer ma demande de devis" data-en="Send my quote request">Envoyer ma demande de devis</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+          <div id="cfSuccess" class="cf-success">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span data-fr="Message envoyé ! Nous vous répondons sous 24h." data-en="Message sent! We will reply within 24 hours.">Message envoyé ! Nous vous répondons sous 24h.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-body">
+    <div class="container footer-grid">
+      <div class="fg-brand">
+        <div class="footer-logo">
+          <div class="fl-mark">ES</div>
+          <div class="fl-name">
+            <span>EMMA SHINE</span>
+            <span data-fr="Groupe Imperium" data-en="Imperium Group">Groupe Imperium</span>
+          </div>
+        </div>
+        <p data-fr="Nouvelle agence d'accueil haut de gamme du Groupe Imperium, présente dans toute la France et en Europe. Des équipes expérimentées, une ambition sans limite." data-en="New premium hospitality agency of the Imperium Group, present throughout France and Europe. Experienced teams, limitless ambition.">Nouvelle agence d'accueil haut de gamme du Groupe Imperium, présente dans toute la France et en Europe. Des équipes expérimentées, une ambition sans limite.</p>
+        <div class="fg-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 10v7M7 7v.01M11 10v7M11 13a2 2 0 014 0v4"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a4 4 0 00-4 4v3H8v4h3v8h4v-8h3l1-4h-4V6a1 1 0 011-1h3z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg></a>
+        </div>
+      </div>
+      <div class="fg-col">
+        <h6 data-fr="Prestations" data-en="Services">Prestations</h6>
+        <ul>
+          <li><a href="#services" data-fr="Salons & Congrès" data-en="Trade Shows">Salons & Congrès</a></li>
+          <li><a href="#services" data-fr="Soirées & Galas VIP" data-en="VIP Galas">Soirées & Galas VIP</a></li>
+          <li><a href="#services" data-fr="Accueil Entreprise" data-en="Corporate Reception">Accueil Entreprise</a></li>
+          <li><a href="#services" data-fr="Profils Multilingues" data-en="Multilingual Profiles">Profils Multilingues</a></li>
+          <li><a href="#services" data-fr="Brand Ambassadors" data-en="Brand Ambassadors">Brand Ambassadors</a></li>
+          <li><a href="#services" data-fr="Mariages & Privés" data-en="Weddings & Private">Mariages & Privés</a></li>
+        </ul>
+      </div>
+      <div class="fg-col">
+        <h6 data-fr="Couverture" data-en="Coverage">Couverture</h6>
+        <ul>
+          <li><a href="#coverage">Paris · Lyon · Marseille</a></li>
+          <li><a href="#coverage">Bordeaux · Nice · Cannes</a></li>
+          <li><a href="#coverage">Monaco · Toulouse · Lille</a></li>
+          <li><a href="#coverage" data-fr="Londres · Milan · Madrid" data-en="London · Milan · Madrid">Londres · Milan · Madrid</a></li>
+          <li><a href="#coverage">Genève · Bruxelles</a></li>
+          <li><a href="#coverage" data-fr="+ 20 pays européens" data-en="+ 20 European countries">+ 20 pays européens</a></li>
+        </ul>
+      </div>
+      <div class="fg-col">
+        <h6 data-fr="Contact" data-en="Contact">Contact</h6>
+        <ul>
+          <li>12 Av. des Champs-Élysées</li>
+          <li>75008 Paris, France</li>
+          <li><a href="tel:+33612345678">+33 6 12 34 56 78</a></li>
+          <li><a href="mailto:contact@emmashine.com">contact@emmashine.com</a></li>
+        </ul>
+        <div class="fg-avail">
+          <div class="fa-dot"></div>
+          <span data-fr="Disponible 7j/7 · 24h/24" data-en="Available 7/7 · 24/7">Disponible 7j/7 · 24h/24</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-base">
+    <div class="container footer-base-inner">
+      <p>© 2025 Emma Shine — <span data-fr="Une société du Groupe Imperium · Tous droits réservés" data-en="A company of the Imperium Group · All rights reserved">Une société du Groupe Imperium · Tous droits réservés</span></p>
+      <div class="fb-links">
+        <a href="#" data-fr="Mentions légales" data-en="Legal notice">Mentions légales</a>
+        <a href="#" data-fr="Confidentialité" data-en="Privacy">Confidentialité</a>
+        <a href="#" data-fr="CGV" data-en="T&C">CGV</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="btop" id="btop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<!-- Progress bar -->
+<div class="progress-bar" id="progressBar"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
