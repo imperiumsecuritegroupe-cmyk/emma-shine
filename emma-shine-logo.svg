@@ -1,4 +1,4 @@
-<svg width="680" height="340" viewBox="60 42 560 338" xmlns="http://www.w3.org/2000/svg">
+<svg width="680" height="360" viewBox="60 42 560 358" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .serif { font-family: 'Cormorant Garamond', Georgia, serif; }
@@ -53,12 +53,12 @@
   <line x1="200" y1="340" x2="480" y2="340" stroke="#C9A84C" stroke-width="0.3" opacity="0.4"/>
 
   <!-- GROUPE IMPERIUM -->
-  <text x="340" y="357" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif"
-        font-size="9" font-weight="300" fill="#C9A84C" letter-spacing="4" opacity="0.8">GROUPE IMPERIUM</text>
+  <text x="340" y="360" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif"
+        font-size="14" font-weight="400" fill="#C9A84C" letter-spacing="5" opacity="0.9">GROUPE IMPERIUM</text>
 
   <!-- Tagline -->
-  <text x="340" y="375" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif"
-        font-size="8" font-weight="300" fill="#888888" letter-spacing="2.5">AGENCE D'HÔTES &amp; HÔTESSES DE PRESTIGE</text>
+  <text x="340" y="382" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif"
+        font-size="12" font-weight="300" fill="#aaaaaa" letter-spacing="3">AGENCE D'HÔTES &amp; HÔTESSES DE PRESTIGE</text>
 
   <!-- Étoile ornementale haut -->
   <g opacity="0.5">
