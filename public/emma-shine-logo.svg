@@ -1,0 +1,69 @@
+<svg width="680" height="360" viewBox="60 42 560 358" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .serif { font-family: 'Cormorant Garamond', Georgia, serif; }
+      .sans  { font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+  </defs>
+
+
+  <!-- Lignes horizontales -->
+  <line x1="80" y1="50" x2="600" y2="50" stroke="#C9A84C" stroke-width="0.4" opacity="0.5"/>
+  <line x1="80" y1="370" x2="600" y2="370" stroke="#C9A84C" stroke-width="0.4" opacity="0.5"/>
+
+  <!-- Coins décoratifs -->
+  <line x1="80" y1="50" x2="80" y2="80" stroke="#C9A84C" stroke-width="0.8"/>
+  <line x1="80" y1="50" x2="110" y2="50" stroke="#C9A84C" stroke-width="0.8"/>
+  <line x1="600" y1="50" x2="600" y2="80" stroke="#C9A84C" stroke-width="0.8"/>
+  <line x1="600" y1="50" x2="570" y2="50" stroke="#C9A84C" stroke-width="0.8"/>
+  <line x1="80" y1="370" x2="80" y2="340" stroke="#C9A84C" stroke-width="0.8"/>
+  <line x1="80" y1="370" x2="110" y2="370" stroke="#C9A84C" stroke-width="0.8"/>
+  <line x1="600" y1="370" x2="600" y2="340" stroke="#C9A84C" stroke-width="0.8"/>
+  <line x1="600" y1="370" x2="570" y2="370" stroke="#C9A84C" stroke-width="0.8"/>
+
+  <!-- Cadre monogramme -->
+  <rect x="270" y="80" width="140" height="140" rx="2" fill="none" stroke="#C9A84C" stroke-width="0.6" opacity="0.3"/>
+
+  <!-- ES ombre -->
+  <text x="340" y="182" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="120" font-weight="300" fill="#C9A84C" opacity="0.12" letter-spacing="-4">ES</text>
+
+  <!-- ES principal -->
+  <text x="340" y="176" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="72" font-weight="600" fill="#C9A84C" letter-spacing="6">ES</text>
+
+  <!-- Séparateur ornemental -->
+  <line x1="160" y1="244" x2="248" y2="244" stroke="#C9A84C" stroke-width="0.5" opacity="0.6"/>
+  <polygon points="264,244 260,241 260,247" fill="#C9A84C" opacity="0.8"/>
+  <polygon points="340,236 344,244 340,252 336,244" fill="#C9A84C"/>
+  <polygon points="416,244 420,241 420,247" fill="#C9A84C" opacity="0.8"/>
+  <line x1="432" y1="244" x2="520" y2="244" stroke="#C9A84C" stroke-width="0.5" opacity="0.6"/>
+
+  <!-- EMMA -->
+  <text x="340" y="290" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="52" font-weight="600" fill="#ffffff" letter-spacing="18">EMMA</text>
+
+  <!-- SHINE -->
+  <text x="340" y="320" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif"
+        font-size="28" font-weight="300" fill="#C9A84C" letter-spacing="22">SHINE</text>
+
+  <!-- Ligne fine -->
+  <line x1="200" y1="340" x2="480" y2="340" stroke="#C9A84C" stroke-width="0.3" opacity="0.4"/>
+
+  <!-- GROUPE IMPERIUM -->
+  <text x="340" y="360" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif"
+        font-size="14" font-weight="400" fill="#C9A84C" letter-spacing="5" opacity="0.9">GROUPE IMPERIUM</text>
+
+  <!-- Tagline -->
+  <text x="340" y="382" text-anchor="middle" font-family="'Montserrat', 'Helvetica Neue', Arial, sans-serif"
+        font-size="12" font-weight="300" fill="#aaaaaa" letter-spacing="3">AGENCE D'HÔTES &amp; HÔTESSES DE PRESTIGE</text>
+
+  <!-- Étoile ornementale haut -->
+  <g opacity="0.5">
+    <line x1="340" y1="62" x2="340" y2="54" stroke="#C9A84C" stroke-width="0.8"/>
+    <line x1="333" y1="58" x2="347" y2="58" stroke="#C9A84C" stroke-width="0.8"/>
+    <line x1="335.5" y1="55.5" x2="344.5" y2="60.5" stroke="#C9A84C" stroke-width="0.5"/>
+    <line x1="344.5" y1="55.5" x2="335.5" y2="60.5" stroke="#C9A84C" stroke-width="0.5"/>
+    <circle cx="340" cy="58" r="2" fill="#C9A84C"/>
+  </g>
+</svg>
